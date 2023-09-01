@@ -13,6 +13,4 @@ def linear_search(array, search_value):
 
 
 if __name__ == '__main__':
-    arr = [5, 2, 10, 4, 6]
-    arr.sort()
-    print(linear_search(arr, 3))
+    print(linear_search([5, 2, 10, 4, 6], 3))

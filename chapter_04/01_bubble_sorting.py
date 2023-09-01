@@ -1,5 +1,5 @@
 """
-O(N^2)
+O(N^2) - говорит об полиномиальном росте.
 """
 
 
@@ -18,5 +18,4 @@ def bubble_sorting(array):
 
 
 if __name__ == '__main__':
-    arr = [7, 2, 5, 9, 8, 1]
-    print(bubble_sorting(arr))
+    print(bubble_sorting([7, 2, 5, 9, 8, 1]))
